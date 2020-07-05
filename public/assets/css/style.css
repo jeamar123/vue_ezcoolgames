@@ -1,0 +1,103 @@
+*{
+  box-sizing: border-box;
+}
+
+body,html{
+  height: 100%;
+  width: 100%;
+  background: var(--bg-color);
+  font-family: var(--primary-font);
+  color: var(--font-black);
+  font-size: 14px;
+  /*overflow-x: hidden;*/
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  letter-spacing: .14px;
+  line-height: 1.42857143;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  /*-webkit-font-smoothing: antialiased;*/
+  /*-moz-osx-font-smoothing: grayscale;*/
+  font-weight: 700;
+}
+
+html{
+  height: auto;
+}
+
+button{
+  font-family: var(--primary-bold-font);
+}
+button:hover {
+  transition: all .2s ease-in-out;
+}
+
+input, select, textarea{
+  font-family: var(--primary-font);
+}
+a{
+  color: #777;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:focus{
+  outline: none;
+}
+
+b{
+  font-family: var(--primary-bold-font);
+}
+
+.text-success{
+  color: var(--font-success);
+}
+
+.text-error{
+  color: var(--font-error);
+}
+
+body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) { overflow-y: visible !important; }
+
+
+
+/*----------- BODY -------------*/
+  #app{
+    position: relative;
+  }
+  #main-content{
+    position: relative;
+    height: 100vh;
+    /*overflow-y: auto;*/
+    overflow: hidden;
+  }
+  .dashboard-container{
+    display: flex;
+  }
+  .child-content{
+    flex: 1;
+  }
+  .child-content{
+    min-height: calc( 100vh - 300px );
+    padding-left: 10px;
+  }
+  .white-box{
+    border-radius: 3px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 24px 0 rgba(0,0,0,.06), 0 1px 0 0 rgba(0,0,0,.02);
+    box-shadow: 0 0 24px 0 rgba(0,0,0,.06), 0 1px 0 0 rgba(0,0,0,.02);
+  }
+/*------------------------------*/
+
+
+
+
+
+
+
+
+
+

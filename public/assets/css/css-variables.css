@@ -1,0 +1,70 @@
+/* gloabl css */
+:root {
+  --primary-font: 'Proximanova Thin';
+  --primary-bold-font: 'Proximanova Medium';
+  --secondary-font: 'Open Sans Light';
+  --secondary-bold-font: 'Open Sans Medium';
+
+  --font-black: #333;
+  --font-gray: #777;
+  --font-success: #35ad35;
+  --font-error: #ff0000c9;
+
+  --scheme-color-1: #3C5A86;
+  --scheme-color-2: #0080AA;
+  --scheme-color-3: #00A6B4;
+  --scheme-color-4: #00C8A4;
+  --scheme-color-5: #90E586;
+  --scheme-color-6: #F9F871;
+  --scheme-color-7: #2d4465;
+
+
+  --bg-color: #c0d4f1;
+  /* --bg-color: #fafafa; */
+  --main-color: #fff;
+  --secondary-color: #fafafa;
+
+  --primary-btn: #bbb;
+  --danger-btn: #ff5757;
+
+  --primary-font-color: #444;
+  --secondary-font-color: #777;
+
+/*----------Navbar variables----------*/
+  --navbar-bg-color: var(--scheme-color-1);
+  --navbar-font-color: #c0d0e5;
+  --navbar-active-color: #1036408a;
+/*------------------------------------*/
+
+
+/*------------ DASHBOARD UI CONFIG --------------*/
+  --dash-primary-color: var(--scheme-color-1);
+  --dash-secondary-color: #2d4465;
+  --dash-bg-color: #3c5a86;
+  --dash-font-color-black: #333;
+  --dash-font-color-white: #c0d0e5;
+
+  --dash-bgcolor: #f3f3f3;
+
+  /*---------------navbar---------------*/
+    --dash-navbar-bgcolor: var(--dash-primary-color);
+  /*------------------------------------*/
+
+  /*---------sidemenu variables---------*/
+    --sidemenu-bg-color: var(--scheme-color-7);
+    --sidemenu-logo-bg-color: var(--dash-secondary-color);
+    --profile-bg-color: var(--dash-secondary-color);
+    --sidemenu-font-color: #eee;
+    --sidemenu-secondary-font-color: #eee;
+    --item-font-color: var(--dash-font-color-white);
+    --item-active-color: #eee;
+  /*------------------------------------*/
+
+/*-----------------------------------------------*/
+
+
+
+  /*---------dashboard home variables---------*/
+
+  /*------------------------------------*/
+}

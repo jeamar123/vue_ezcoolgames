@@ -1,0 +1,152 @@
+/* ----------- OPEN SANS ----------------- */
+    @font-face {
+        font-family: 'Open Sans'; /* Global font */
+        src: url('../fonts/open-sans/OpenSans-Regular.ttf')  format('truetype');
+    }
+
+    @font-face {
+        font-family: 'Open Sans Light'; /* Global font */
+        src: url('../fonts/open-sans/OpenSans-Light.ttf')  format('truetype');
+    }
+    
+    @font-face {
+        font-family: 'Open Sans Medium'; /* Global font */
+        src: url('../fonts/open-sans/OpenSans-Semibold.ttf')  format('truetype');
+    }
+    
+    @font-face {
+        font-family: 'Open Sans Bold'; /* Global font */
+        src: url('../fonts/open-sans/OpenSans-Bold.ttf')  format('truetype');
+    }
+
+
+/* ----------- Helvetica ----------------- */
+    @font-face {
+        font-family: 'Helvetica Thin'; /* Global font */
+        src: url('../fonts/helveticaneue/HelveticaNeue Thin.ttf')  format('truetype');
+    }
+
+    @font-face {
+        font-family: 'Helvetica Light'; /* Global font */
+        src: url('../fonts/helveticaneue/HelveticaNeue Light.ttf')  format('truetype');
+    }
+
+    @font-face {
+        font-family: 'Helvetica Medium'; /* Global font */
+        src: url('../fonts/helveticaneue/HelveticaNeue Medium.ttf')  format('truetype');
+    }
+
+     @font-face {
+        font-family: 'Helvetica Neu Bold'; /* Global font */
+        src: url('../fonts/helveticaneue/Helvetica Neu Bold.ttf')  format('truetype');
+    }
+
+
+/*------------- Roboto ---------------*/
+    @font-face {
+        font-family: 'Roboto'; /* Global font */
+        src: url('../fonts/roboto/Roboto-Regular.ttf')  format('truetype');
+    }
+    @font-face {
+        font-family: 'Roboto Light'; /* Global font */
+        src: url('../fonts/roboto/Roboto-Light.ttf')  format('truetype');
+    }
+    @font-face {
+        font-family: 'Roboto Medium'; /* Global font */
+        src: url('../fonts/roboto/Roboto-Medium.ttf')  format('truetype');
+    }
+
+
+
+
+
+/*------------- MYRIAD ---------------*/
+    @font-face {
+        font-family: 'Myriad'; /* Global font */
+        src: url('../fonts/myriad/MyriadPro-Regular.otf')  format('truetype');
+    }
+
+    @font-face {
+        font-family: 'Myriad Light'; /* Global font */
+        src: url('../fonts/myriad/MyriadPro-Light.otf')  format('truetype');
+    }
+
+    @font-face {
+        font-family: 'Myriad Bold'; /* Global font */
+        src: url('../fonts/myriad/MyriadPro-Bold.otf')  format('truetype');
+    }
+
+
+
+
+/*------------- Greycliff ---------------*/
+@font-face {
+    font-family: 'Greycliff'; /* Global font */
+    src: url('../fonts/greycliff/GreycliffCF-Regular.otf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'Greycliff Light'; /* Global font */
+    src: url('../fonts/greycliff/GreycliffCF-Light.otf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'Greycliff Medium'; /* Global font */
+    src: url('../fonts/greycliff/GreycliffCF-Medium.otf')  format('truetype');
+}
+
+
+
+
+
+/*------------- Comfortaa ---------------*/
+@font-face {
+    font-family: 'Comfortaa'; /* Global font */
+    src: url('../fonts/comforta/Comfortaa-Regular.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'Comfortaa Light'; /* Global font */
+    src: url('../fonts/comforta/Comfortaa-Light.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'Comfortaa Medium'; /* Global font */
+    src: url('../fonts/comforta/Comfortaa-Bold.ttf')  format('truetype');
+}
+
+
+
+/*------------- Comfortaa ---------------*/
+@font-face {
+    font-family: 'Gotham'; /* Global font */
+    src: url('../fonts/gotham/Gotham-Book.otf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'Gotham Light'; /* Global font */
+    src: url('../fonts/gotham/Gotham-Light.otf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'Gotham Medium'; /* Global font */
+    src: url('../fonts/gotham/Gotham-Bold.otf')  format('truetype');
+}
+
+
+
+/*------------- Proximanova ---------------*/
+@font-face {
+    font-family: 'Proximanova'; /* Global font */
+    src: url('../fonts/proximanova/Proxima Nova Regular.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'Proximanova Thin'; /* Global font */
+    src: url('../fonts/proximanova/Proxima Nova Thin.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'Proximanova Medium'; /* Global font */
+    src: url('../fonts/proximanova/Proxima Nova Semibold.ttf')  format('truetype');
+}

@@ -1,0 +1,222 @@
+
+/*----------- Table ------------*/
+table{
+  width: 100%;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 700;
+  vertical-align: middle;
+}
+table thead tr th{
+  /*color: rgba(0,0,0,.54);*/
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}
+table thead tr th:first-child,
+table tbody tr td:first-child{
+  /* padding-left: 0px; */
+}
+table tbody tr td{
+  padding: 15px 15px;
+  border-bottom: 1px solid #ddd;
+  /*color: #000;*/
+}
+table tbody tr:last-child td{
+  border: none;
+}
+table thead tr th:last-child,
+table tbody tr td:last-child{
+  text-align: center;
+  /* padding-right: 0; */
+}
+table tbody{
+  border-bottom: 1px solid #eee;
+}
+table .btn{
+  border: none;
+  line-height: 1;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: rgba(255,255,255,0.87);
+  color: rgba(255,255,255,0.87);
+  background-color: #076086;
+  border-radius: 2px;
+  height: 36px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+  text-transform: uppercase;
+  -webkit-transition-duration: .5s;
+  transition-duration: .5s;
+  -webkit-transition-timing-function: cubic-bezier(.35,0,.25,1);
+  transition-timing-function: cubic-bezier(.35,0,.25,1);
+  -webkit-transition-property: background-color,fill,color;
+  transition-property: background-color,fill,color;
+  font-family: inherit;
+}
+table .btn:hover{
+  background-color: rgb(57,73,171);
+}
+table .btn .oi{
+  vertical-align: middle;
+  display: inline-block;
+}
+table .btn .text{
+  vertical-align: middle;
+  font-size: 12px;
+  padding-left: 8px;
+  font-weight: 700;
+  display: inline-block;
+  position: relative;
+  top: -1px;
+}
+/*------------------------------*/
+
+
+
+/*------ Table pagination -------*/
+.table-pagination{
+  padding: 10px 0;
+  font-weight: 700;
+  display: flex;
+  width: 100%;
+  font-size: 12px;
+  color: rgba(0,0,0,.54);
+  justify-content: flex-end;
+  align-items: center;
+}
+.table-pagination .arrows{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 80px;
+  margin-left: 20px;
+}
+.table-pagination .arrows .arrow{
+  flex: 1;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 10px 0;
+}
+.table-pagination .page-text{
+  margin-left: 40px;
+  width: 80px;
+}
+.table-pagination .per-page{
+  width: 140px;
+  display: flex;
+  margin-left: 40px;
+}
+.table-pagination .per-page .per-page-text{
+  flex: 1;
+}
+.table-pagination .per-page .per-page-select{
+  width: 50px;
+  position: relative; 
+}
+.table-pagination .per-page .per-page-select .per-page-btn{
+  cursor: pointer;
+  text-align: right;
+}
+.per-page-btn .per-page-value{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.per-page-btn .oi{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 10px;
+}
+.table-pagination .per-page .per-page-select .per-page-drop{
+  max-height: 256px;
+  width: 120px;
+  overflow-y: auto;
+  background-color: #e8e6e6;
+  color: rgba(0,0,0,0.87);
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 2px 1px -1px rgba(0,0,0,.12);
+}
+.table-pagination .per-page .per-page-select .per-page-drop li{
+  list-style: none;
+  padding: 18px 16px;
+  height: 48px;
+  cursor: pointer;
+  color: rgba(33,33,33,0.87);
+}
+.table-pagination .per-page .per-page-select .per-page-drop li:hover{
+  background: rgb(238,238,238);
+}
+.table-pagination .select-page{
+  width: 80px;
+  display: flex;
+  margin-left: 40px;
+}
+.table-pagination .select-page .select-page-text{
+  flex: 1;
+}
+.table-pagination .select-page .select-page-select{
+  width: 50px;
+  position: relative; 
+}
+.table-pagination .select-page .select-page-select .select-page-btn{
+  cursor: pointer;
+  text-align: right;
+}
+.select-page-btn .select-page-value{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.select-page-btn .oi{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 10px;
+}
+.table-pagination .select-page .select-page-select .select-page-drop{
+  max-height: 256px;
+  width: 120px;
+  overflow-y: auto;
+  background-color: #e8e6e6;
+  color: rgba(0,0,0,0.87);
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 2px 1px -1px rgba(0,0,0,.12);
+}
+.table-pagination .select-page .select-page-select .select-page-drop li{
+  list-style: none;
+  padding: 18px 16px;
+  height: 48px;
+  cursor: pointer;
+  color: rgba(33,33,33,0.87);
+}
+.table-pagination .select-page .select-page-select .select-page-drop li:hover{
+  background: rgb(238,238,238);
+}
+/*-------------------------------*/
+
+
+
+/*--------- Transition ----------*/
+.fade-enter-active,
+.fade-leave-active {
+  /* transition: opacity; */
+-webkit-transition: all 200ms cubic-bezier(0.785, 0.135, 0.150, 0.860); 
+   -moz-transition: all 200ms cubic-bezier(0.785, 0.135, 0.150, 0.860); 
+     -o-transition: all 200ms cubic-bezier(0.785, 0.135, 0.150, 0.860); 
+        transition: all 200ms cubic-bezier(0.785, 0.135, 0.150, 0.860); /* easeInOutCirc */
+
+-webkit-transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860); 
+   -moz-transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860); 
+     -o-transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860); 
+        transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860); /* easeInOutCirc */
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+/*-------------------------------*/
+
