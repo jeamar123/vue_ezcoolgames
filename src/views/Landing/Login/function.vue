@@ -1,5 +1,5 @@
 <script>
-	import axios from 'axios'
+	// import axios from 'axios'
 
 	var Login = {
 		data() {
@@ -21,6 +21,7 @@
 				},1000);
       },
       submitLogin( formData ){
+				console.log(formData);
 				this.$router.push({ name: 'Home' });
       	// if( !formData.email ){
       	// 	this.$swal( 'Error!', 'Email is required.', 'error');
